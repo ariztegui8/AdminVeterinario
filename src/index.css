@@ -1,0 +1,58 @@
+body{
+     background-color: #080808e0;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/fondo1.jpg);
+     background-size: cover;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.title-formulario{
+    margin-bottom: 50px;
+    color: #ffffffe8;
+    text-align: center;
+}
+
+.input-mascota, .input-dueño, .input-fecha, .input-hora, .input-sintomas, .input-button{
+    width: 94%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    outline: none;
+    border-color: black;  
+    padding: 10px;           
+}
+
+.label-form{
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.alertForm{
+    width: 94%;
+    border-radius: 8px;
+}
+
+.title-admCitas{
+    color: #ffffff;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.container-cita{
+    margin-bottom: 15px;
+    background-color: #ffffffe8;
+    border-radius: 8px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.container-cita button{
+    width: 100%;
+}
